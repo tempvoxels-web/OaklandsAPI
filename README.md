@@ -2,6 +2,8 @@
 
 local API = loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/OaklandsAPI/main/Oaklands%20DEHASH%20API.lua"))()
 
+(or API = getgenv().OaklandsRemotes)
+
 -- Returns the actual remote instance
 local remote = API:Get("BuyButton")
 if remote then remote:FireServer() end
