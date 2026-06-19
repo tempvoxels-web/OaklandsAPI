@@ -2,9 +2,11 @@
 
 **Usage:**
 
+```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/OaklandsAPI/refs/heads/main/OaklandsRealtimeDehasher"))
 
 local Remote = GetRemote("Original Remote Name")
+```
 
 
 -- GetRemote is a global function. (after the loadstring)
