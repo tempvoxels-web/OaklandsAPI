@@ -29,7 +29,6 @@ Remote:FireServer()
 
 ## Reference
 
-Full list of original (unhashed) remote names:  
-https://github.com/tempvoxels-web/Oaklands-DEHASHED-REMOTES/blob/main/OaklandsDEHASHED_latest.lua
+Full list of original (unhashed) remote names [here](https://github.com/tempvoxels-web/Oaklands-DEHASHED-REMOTES/blob/main/OaklandsDEHASHED_latest.lua)
 
-- Note that the dehasher itself updates from that github repo.
+(Note that the dehasher itself updates from the latest dehashed github repo.)
