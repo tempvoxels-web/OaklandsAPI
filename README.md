@@ -20,7 +20,7 @@ Remote:FireServer()
 ## Notes
 
 - `GetRemote()` is a global function available after the loadstring executes.
-- It returns an ObjectValue (hashed remote) that can be called with `:FireServer()`.
+- It returns an ObjectValue (hashed remote) that can be called with `:FireServer()` or `:InvokeServer()`.
 - The dehasher will output warnings if:
   - The remote name is incorrect
   - An invalid remote type is provided
