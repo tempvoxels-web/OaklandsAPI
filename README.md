@@ -9,6 +9,7 @@ local Remote = GetRemote("Original Remote Name")
 ```
 
 
+
 -- GetRemote is a global function. (after the loadstring)
 
 -- GetRemote returns an objectvalue (hashed remote) that you are able to call like: Remote:FireServer()
