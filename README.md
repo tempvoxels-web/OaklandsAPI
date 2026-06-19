@@ -1,19 +1,35 @@
-# OAKLANDS REMOTE DEHASHER
+# Oaklands Remote Dehasher
 
-**Usage:**
+## Installation
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/OaklandsAPI/refs/heads/main/OaklandsRealtimeDehasher"))
-
-local Remote = GetRemote("Original Remote Name")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/OaklandsAPI/refs/heads/main/OaklandsRealtimeDehasher"))()
 ```
 
+---
 
+## Usage
 
--- GetRemote is a global function. (after the loadstring)
+```lua
+local Remote = GetRemote("Original Remote Name")
+Remote:FireServer()
+```
 
--- GetRemote returns an objectvalue (hashed remote) that you are able to call like: Remote:FireServer()
+---
 
--- Check: ```https://github.com/tempvoxels-web/Oaklands-DEHASHED-REMOTES/blob/main/OaklandsDEHASHED_latest.lua``` for original (unhashed) remote names.
+## Notes
 
--- The dehasher will return warnings if there are errors or if the user inputs a wrong type of remote/remote name.
+- `GetRemote()` is a global function available after the loadstring executes.
+- It returns an ObjectValue (hashed remote) that can be called with `:FireServer()`.
+- The dehasher will output warnings if:
+  - The remote name is incorrect
+  - An invalid remote type is provided
+
+---
+
+## Reference
+
+Full list of original (unhashed) remote names:  
+https://github.com/tempvoxels-web/Oaklands-DEHASHED-REMOTES/blob/main/OaklandsDEHASHED_latest.lua
+
+- Note that the dehasher itself updates from that github repo.
