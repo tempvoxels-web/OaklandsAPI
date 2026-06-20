@@ -16,6 +16,18 @@ local Remote = GetRemote("Original Remote Name")
 Remote:FireServer()
 ```
 
+### GetAll()
+```lua
+local Remote = GetRemote("Original Remote Name")
+Remote:FireServer()
+```
+
+### HashToRemote()
+```lua
+local Remote = GetRemote("Original Remote Name")
+Remote:FireServer()
+```
+
 ---
 
 ## Notes
