@@ -10,6 +10,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/Oaklan
 
 ## Usage
 
+### GetRemote()
 ```lua
 local Remote = GetRemote("Original Remote Name")
 Remote:FireServer()
@@ -19,9 +20,13 @@ Remote:FireServer()
 
 ## Notes
 
-- `GetRemote()` is a global function available after the loadstring executes.
-- It returns an ObjectValue (hashed remote) that can be called with `:FireServer()` or `:InvokeServer()`.
-- The dehasher will output warnings if:
+- `GetRemote(), GetAll() and HashToRemote()` are global functions available after the loadstring executes and fully loads.
+
+- `GetRemote()` Returns an object (and the object class) that can be called with `:FireServer()` or `:InvokeServer()`.
+- `GetAll()` Returns a table containing every successfully resolved remote.
+- `HashToRemote()` Converts a hashed remote UUID back into its original remote name (also returns class).
+
+- The dehasher output warnings go as followed:
   - The remote name is incorrect
   - An invalid remote type is provided
 
