@@ -8,7 +8,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/Oaklan
 
 ---
 
-## Usage
+## Usage:
 
 ### GetRemote()
 ```lua
@@ -56,9 +56,11 @@ local Name, Class = HashToRemote("2frrn4-d32rrfv-34f34f3")
 -- HashToRemote("f4jhujf-43fsd-193-fghr-26") -> Name = "AnchorObject", Class = "RemoteFunction"
 ```
 
+<br>
+
 ---
 
-## Notes
+## Notes:
 
 - `GetRemote(), GetAll() and HashToRemote()` are global functions available after the loadstring executes and fully loads.
 <br>
@@ -72,11 +74,15 @@ local Name, Class = HashToRemote("2frrn4-d32rrfv-34f34f3")
   - The remote name is incorrect
   - An invalid remote type is provided
   - A remote was not found or does not exist
+ 
+<br>
 
 ---
 
-## Reference
+## Reference:
 
 - Full list of original (unhashed) remote names [here](https://github.com/tempvoxels-web/Oaklands-DEHASHED-REMOTES/blob/main/OaklandsDEHASHED_latest.lua)
 
 - (Note that the dehasher itself updates from the latest dehashed github repo.)
+
+<br>
