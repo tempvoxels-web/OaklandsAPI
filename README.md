@@ -61,6 +61,7 @@ local Name, Class = HashToRemote("2frrn4-d32rrfv-34f34f3")
 ## Notes
 
 - `GetRemote(), GetAll() and HashToRemote()` are global functions available after the loadstring executes and fully loads.
+<br>
 
 - `GetRemote()` Returns an object (and the object class) that can be called with `:FireServer()` or `:InvokeServer()`.
 - `GetAll()` Returns a table containing every successfully resolved remote.
