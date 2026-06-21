@@ -12,8 +12,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/Oaklan
 
 ### GetRemote()
 ```lua
--- local Remote, Class = GetRemote("GetMoney")
--- Remote:FireServer()
+local Remote, Class = GetRemote("GetMoney")
+Remote:FireServer()
 
 -- Returns:
 --
@@ -23,7 +23,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/Oaklan
 
 ### GetAll()
 ```lua
--- local RemoteTable = GetAll()
+local RemoteTable = GetAll()
 
 -- Returns a table containing every successfully resolved remote.
 --
@@ -47,7 +47,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/Oaklan
 
 ### HashToRemote()
 ```lua
--- local Name, Class = HashToRemote("2frrn4-d32rrfv-34f34f3")
+local Name, Class = HashToRemote("2frrn4-d32rrfv-34f34f3")
 
 -- Converts a hashed remote UUID back into its original remote name (also returns the class).
 --
