@@ -4,6 +4,8 @@
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tempvoxels-web/OaklandsAPI/refs/heads/main/OaklandsRealtimeDehasher"))()
+
+getgenv().AllowPrint = true -- set this to false if you dont want it to print out stuff like: "Dehashed: .." or "Hash to Name: ..".
 ```
 
 ---
