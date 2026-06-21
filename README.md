@@ -49,7 +49,7 @@ local RemoteTable = GetAll()
 ```lua
 local Name, Class = HashToRemote("2frrn4-d32rrfv-34f34f3")
 
--- Converts a hashed remote UUID back into its original remote name (also returns the class).
+-- Converts a hashed remote UUID back into its original remote name (also returns its class).
 --
 -- Example:
 -- HashToRemote("2frrn4-d32rrfv-34f34f3") -> Name = "GetMoney", Class = "RemoteEvent"
@@ -65,7 +65,7 @@ local Name, Class = HashToRemote("2frrn4-d32rrfv-34f34f3")
 
 - `GetRemote()` Returns an object (and the object class) that can be called with `:FireServer()` or `:InvokeServer()`.
 - `GetAll()` Returns a table containing every successfully resolved remote.
-- `HashToRemote()` Converts a hashed remote UUID back into its original remote name (also returns class).
+- `HashToRemote()` Converts a hashed remote UUID back into its original remote name (also returns its class).
 <br>
 
 - The dehasher output warnings go as followed:
